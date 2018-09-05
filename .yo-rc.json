@@ -28,7 +28,8 @@
       "en"
     ],
     "clientFramework": "angularX",
-    "jhiPrefix": "jhi"
+    "jhiPrefix": "jhi",
+    "herokuDeployType": "git"
   },
   "git-provider": "GitHub",
   "git-company": "rbrandon87",
