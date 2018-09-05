@@ -1,0 +1,11 @@
+version: '2'
+services:
+    bwizconfmicro-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/BwizConfMicro/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=BwizConfMicro
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
